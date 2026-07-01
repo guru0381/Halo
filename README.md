@@ -1,4 +1,4 @@
-# Beacon
+# Halo
 
 **A local, privacy-first personal assistant for macOS.** It reads your Gmail and
 Apple Notes and helps you stay on top of them — a daily briefing, a monthly inbox
