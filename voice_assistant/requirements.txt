@@ -1,0 +1,17 @@
+# Brain + actions (testable immediately; requests is already in your venv)
+requests>=2.31
+
+# Audio stack (needed only for the always-on wake-word daemon)
+openwakeword>=0.6.0
+sounddevice>=0.4.6
+numpy>=1.24
+faster-whisper>=1.0.0
+
+# Optional: custom wake phrase ("Hey Guru") via Picovoice Porcupine.
+# Only needed if ASSISTANT_WAKEWORD_ENGINE=porcupine.
+pvporcupine>=3.0.0
+
+# Email slice (Gmail send via OAuth — already in your venv from briefing/digest)
+google-api-python-client>=2.100
+google-auth>=2.20
+google-auth-oauthlib>=1.0

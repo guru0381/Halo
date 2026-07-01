@@ -1,0 +1,21 @@
+# Secrets — never commit
+.env
+credentials.json
+token.json
+voice_assistant/.env
+voice_assistant/token_assistant.json
+voice_assistant/contacts.local.json
+*.ppn
+
+# Generated / private output
+reminders.json
+voice_assistant/reminders.json
+today.txt
+digest.txt
+
+# Environment / caches
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
